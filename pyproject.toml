@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "genshin-characters"
+version = "0.1.0"
+description = ""
+authors = ["poly000"]
+readme = "README.md"
+packages = [{include = "genshin_characters"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
